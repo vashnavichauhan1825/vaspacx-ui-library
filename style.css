@@ -1,29 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&display=swap');
 body{
     background-color:rgb(0, 0, 0);
     color:white;
     margin:0;
     height:400vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 :root{
     --primary-color:#124490;
     --secondary-color:rgb(0,0,0);
     --font-color:rgb(255,255,255);
-    --grey-color:#587D71;
+    --grey-color:#688078;
 }
 .header-container{
-    width:100vw;
+    width:98vw;
     height:100vh;
     display:flex;
     position: relative;
 }
 .nav{
+    font-family: 'Roboto', sans-serif;
     display: flex;
     position:fixed;
-    justify-content: space-between;
+    justify-content:space-between;
     width: 80%;
     gap: 80px;
-    margin-left: 20%;
+    margin-left: 22.4%;
     padding: 11px 40px;
     border-bottom: 1px solid rgb(81 82 83);
     height: 70px;
@@ -41,6 +43,7 @@ body{
 }
 /* sidebar  */
 .vaspacx{
+    font-family: 'Roboto', sans-serif;
     font-size: 42px;
     letter-spacing: 2px;
     padding-bottom: 23px;
@@ -51,6 +54,7 @@ body{
 }
 
 .sidebar{
+    font-family: 'Roboto', sans-serif;
     display: flex;
     padding: 20px 5px 0px 30px;
     width: 20%;
@@ -87,6 +91,9 @@ body{
 
 /* social icons in nav */
 
+.social-icons{
+    margin-right:85px;
+}
 .social-icons li a i{
     padding:10px;
     border-radius:50%;
@@ -99,3 +106,42 @@ body{
 }
 
 /* detail section */
+
+.detail{
+    width: 98vw;
+    height: 100vh;
+    margin-left:22.7%;
+    padding:20px 20px;
+    margin-top: 94px;
+}
+
+.heading-detail{
+    letter-spacing:1px;
+    line-height: 36px;
+    word-spacing: 12px;
+}
+
+.heading-detail::before{
+      content:'V';
+      font-size:50px;
+      
+}
+
+.para-heading{
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    line-height: 130px;
+}
+
+/* colors-font */
+
+.clr-blue{
+color:var(--primary-color);
+}
+
+.para{
+    line-height: 27px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 18px; 
+}
