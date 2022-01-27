@@ -20,8 +20,8 @@ body{
 .hero h1{
     display: inline-block;
     font-size: 114px;
-    margin-bottom:  -276px;
-    color:white;
+    margin-bottom: -246px;
+    color: white;
 }
 
 .hero p{
@@ -48,8 +48,8 @@ img{
 button{
     position: fixed;
     cursor: pointer;
-    top: 65%;
-    left: 50%;
+    top: 74%;
+    left: 47%;
     color: white;
     background-color: #0b0a0c26;
     border: 1px solid white;

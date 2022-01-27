@@ -1,17 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&display=swap');
-body{
-    background-color:rgb(0, 0, 0);
-    color:white;
-    margin:0;
-    height:400vh;
-    font-family: 'Manrope', sans-serif;
-}
-:root{
-    --primary-color:#124490;
-    --secondary-color:rgb(0,0,0);
-    --font-color:rgb(255,255,255);
-    --grey-color:#688078;
-}
+@import url("https://vaspacx-components.netlify.app/style.css");
+
+
 .header-container{
     width:98vw;
     height:100vh;
@@ -21,14 +11,14 @@ body{
 .nav{
     font-family: 'Roboto', sans-serif;
     display: flex;
-    position:fixed;
-    justify-content:space-between;
+    position: absolute;
+    justify-content: space-between;
     width: 80%;
     gap: 80px;
-    margin-left: 22.4%;
-    padding: 11px 40px;
+    margin-left: 20.2%;
+    padding: 19px 40px;
     border-bottom: 1px solid rgb(81 82 83);
-    height: 70px;
+    height: 92px;
     background-color: rgb(0, 0, 0);
 }
 
@@ -48,9 +38,7 @@ body{
     letter-spacing: 2px;
     padding-bottom: 23px;
     border-bottom: 1px solid rgb(77 83 86 / 95%);
-    background: -webkit-linear-gradient(#eee, #0b12ed);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color:var(--primary-color);
 }
 
 .sidebar{
@@ -92,7 +80,7 @@ body{
 /* social icons in nav */
 
 .social-icons{
-    margin-right:85px;
+    margin-right: -6px;
 }
 .social-icons li a i{
     padding:10px;
@@ -130,7 +118,7 @@ body{
 .para-heading{
     letter-spacing: 3px;
     word-spacing: 4px;
-    line-height: 130px;
+    line-height: 23px;
 }
 
 /* colors-font */
@@ -144,4 +132,53 @@ color:var(--primary-color);
     word-spacing: 3px;
     letter-spacing: 1px;
     font-size: 18px; 
+}
+
+.para i{
+    color:var(--grey-color);
+}
+
+a{
+text-decoration:none;
+color:var(--font-color);
+}
+.primary-btn{
+    color: var(--font-color);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: none;
+}
+
+.mg-btn{
+    margin: 40px 5px 5px;
+}
+
+/* SECTION STARTED */
+.h1-heading{
+    text-align:center;
+    font-size:50px;
+}
+.md-sz{
+    font-size: 22px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    line-height: 42px;
+}
+section{
+    margin-left: 20%;
+    padding: 10px 48px 65px 48px;
+    border-bottom: 1px solid var(--grey-color);
+}
+
+
+/* flex row */
+
+.flex-row{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap:60px;
+    width:600px;
+    height:150px;
 }
