@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="sidebar">
+           <a href="home.html"><span class="vaspacx">vaspac<i class="fa fa-xing" aria-hidden="true"></i></span></a>
+           <ul>
+            <li><h3>Getting Started</h3></li>
+            <a href="index.html#intro"><li class="margin-10px">Intro</li></a> 
+             <li><h3>Components</h3></li>
+             <a href="index.htmk#avatar"><li class="margin-10px">Avatar</li></a>
+             <a href="index.html#badge"><li class="margin-10px" >Badge</li></a>
+             <a href="index.html#alert"><li class="margin-10px" >Alert</li></a>
+             <a href="index.html#button"><li class="margin-10px" >Button</li></a>
+             <a href="index.html#card"><li class="margin-10px" >Card</li></a>
+             <a href="#image"><li class="margin-10px" >Image</li></a>
+             <a href="#input"><li class="margin-10px" >Input</li></a>
+           </ul>
+        </div>
+     
+     <section id="image">
+        <h1 class="clr-blue h1-heading">Image</h1>
+        <p class="para md-sz">Images can be responsive to fit the parent's width, and also can be customised to be round shaped or can be control the 
+            transparency of image.
+        </p>
+      
+        <h2 class="clr-blue">Round Image</h2>
+        <p class="para">The CSS property border-radius adds rounded corners on images. You can round all of the image's corners </p>
+        <img class="round-image" src="./assets/sleepy-dog.jpg">
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F--by%2520default%2520its%2520size%2520is%2520200px--round%2520image---%252F%252F%250A%250A%253Cimg%2520class%253D%2522round-image%2522%2520src%253D%2522.%252Fimg%252Fsleepy-dog.jpg%2522%253E"
+  style="width: 588px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h2 class="clr-blue">Border Image</h2>
+<p class="para">The CSS property border-radius adds rounded corners on images. You can vary the radius 
+    on corners just by adding class .br-10 for 10px border-radius .br-15 for 15px border-radius and .br-5 for 5px border-radius </p>
+    <img class="image-x br-5px" src="./assets/sleepy-dog.jpg">
+    <img class="image-x br-10px" src="./assets/sleepy-dog.jpg">
+     <img class="image-x br-15px" src="./assets/sleepy-dog.jpg"> 
+     <iframe
+     src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F--for-5px--%252F%252F%250A%250A%253Cimg%2520class%253D%2522image-x%2520br-5px%2522%2520src%253D%2522.%252Fassets%252Fsleepy-dog.jpg%2522%253E%250A%250A%252F%252F---for--10px---%252F%252F%250A%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-x%2520br-10px%2522%2520src%253D%2522.%252Fassets%252Fsleepy-dog.jpg%2522%253E%250A%2520%2520%2520%2520%250A%252F%252F----for-15px---%252F%252F%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-x%2520br-15px%2522%2520src%253D%2522.%252Fassets%252Fsleepy-dog.jpg%2522%253E%2520"
+     style="width: 698px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+     sandbox="allow-scripts allow-same-origin">
+   </iframe>
+   <h2 class="clr-blue">Responsive Image</h2>
+<p class="para">In this image generally take the whole width of the parent element you can check it by controlling the size of your screen</p>
+<img class="resp-img" src="./assets/round-image.jpg">
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F--responsive--image--%252F%252F%250A%250A%253Cimg%2520class%253D%2522resp-img%2522%2520src%253D%2522.%252Fimg%252Fround-image.jpg%2522%253E"
+  style="width: 572px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h2 class="clr-blue">Transparent Image</h2>
+<p class="para">The opacity property can take a value from 0.0 - 1.0. The lower value, the more transparent: There are 4 types
+    of value 0.2,0.5,0.8 and 1.
+</p>
+<img class="image-x op-two" src="./assets/dog-img.jpg">
+     <img class="image-x op-five" src="./assets/dog-img.jpg">
+     <img class="image-x op-eight" src="./assets/dog-img.jpg">
+     <img class="image-x op-one" src="./assets/dog-img.jpg">
+     <iframe
+     src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F--two%250A%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-x%2520op-two%2522%2520src%253D%2522.%252Fimg%252Fdog-img.jpg%2522%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%252F%252F--five%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-x%2520op-five%2522%2520src%253D%2522.%252Fimg%252Fdog-img.jpg%2522%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%252F%252F-eight%250A%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-x%2520op-eight%2522%2520src%253D%2522.%252Fimg%252Fdog-img.jpg%2522%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%252F%252F--one%250A%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-x%2520op-one%2522%2520src%253D%2522.%252Fimg%252Fdog-img.jpg%2522%253E"
+     style="width: 647px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+     sandbox="allow-scripts allow-same-origin">
+   </iframe>
+    </section>
+
+    <section id="input">
+        <h1 class="clr-blue h1-heading">Input</h1>
+        <p class="para md-sz">Input use Suppose user want to submit some details by entering data so basically input is that field Where 
+            user write whatever data they want to submit.
+            
+        </p>
+      
+        <h2 class="clr-blue">Textarea Field</h2>
+        <p class="para">Text area field provide user to write story or some details ehich contain more characters.</p>
+           <div class="cont-txtbox">
+            <div class="input-cont-box">
+                <label class="label-txt">Daily Diary</label><br>
+                <textarea class="input-box text-area" placeholder="Today , I ....."></textarea>
+            </div>
+        </div>
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%2520%2520%252F%252F--text-area-field---%252F%252F%2520%2520%2520%2520%250A%250A%253Cdiv%2520class%253D%2522input-cont-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-txt%2522%253EDaily%2520Diary%253C%252Flabel%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522input-box%2520text-area%2522%2520placeholder%253D%2522Today%2520%252C%2520I%2520.....%2522%253E%253C%252Ftextarea%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 918px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h2 class="clr-blue">Input Field</h2>
+<p class="para"> The input defines a single-line text field. The default width of the text field is 20 characters.</p>
+
+    <div class="input-cont-box">
+        <label class="label-txt">Username</label>
+        <input class="input-box-3" placeholder="Enter your username">
+        </div>
+
+<iframe
+src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%252F%252F--input-field%2520%2520%2520%2520%250A%250A%250A%253Cdiv%2520class%253D%2522input-cont-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-txt%2522%253EUsername%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box-3%2522%2520placeholder%253D%2522Enter%2520your%2520username%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+style="width: 732px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h2 class="clr-blue">Invalid And Valid</h2>
+<p class="para"> If the data is correct then it shows valid otherwise invalid message to user.</p>
+<div class="cont-txtbox">
+<div class="input-cont-box">
+    <label class="label-txt">Email</label>
+    <div class="input-cont-5">
+        <small class="small-valid-txt">✔ valid email id</small>
+        <input class="input-box-2" placeholder="vaspacx2022@gmail.com">
+    </div>
+</div>
+<div class="flex-cont">
+    <div class="input-cont-2">
+        <label class="label-txt">Email</label><br>
+        <input class="input-box-2" placeholder="vaspacx#93ej">
+
+    </div>
+     <small class="invalid-txt">❌ Invalid email id</small>
+   </div>
+</div>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F---valid--%252F%252F%250A%250A%253Cdiv%2520class%253D%2522input-cont-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-txt%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-cont-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522small-valid-txt%2522%253E%25E2%259C%2594%2520valid%2520email%2520id%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box-2%2522%2520placeholder%253D%2522vaspacx2022%2540gmail.com%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%252F--invalid--%252F%252F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-cont-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-txt%2522%253EEmail%253C%252Flabel%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box-2%2522%2520placeholder%253D%2522vaspacx%252393ej%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522invalid-txt%2522%253E%25E2%259D%258C%2520Invalid%2520email%2520id%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 816px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </section>

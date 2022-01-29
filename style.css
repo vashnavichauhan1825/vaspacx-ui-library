@@ -71,6 +71,11 @@
     border-radius:6px;
 }
 
+.margin-10px:active{
+    background-color:#80808026;
+    border-radius:6px;
+}
+
 .details{
     background-color: gold;
     width:200px;
@@ -185,7 +190,33 @@ section{
 
 .card-flex-section{
     display: flex;
-    justify-content:center;
-    gap:50px;
-    margin-bottom:10px;
+    justify-content: center;
+    gap: 14%;
+    margin-bottom: 35px;
+}
+
+.next-btn{
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+   transition:all 0.5s ease-in-out;
+}
+
+.next-btn:hover{
+    cursor: pointer;
+    justify-content: center;
+    gap:4px;
+    color:white;
+    background: linear-gradient( 
+        150deg
+         , #3a7ce3 65%, white 66%);
+}
+
+.cont-txtbox{
+    width:400px;
+    display:flex;
+    gap:10px;
+    height:200px;
+    margin:20px;
 }
