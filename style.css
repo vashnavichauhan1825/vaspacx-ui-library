@@ -132,16 +132,9 @@
 
 /* colors-font */
 
-.clr-blue{
-color:var(--primary-color);
-}
 
-.para{
-    line-height: 27px;
-    word-spacing: 3px;
-    letter-spacing: 1px;
-    font-size: 18px; 
-}
+
+
 
 .para i{
     color:var(--grey-color);
@@ -164,16 +157,9 @@ color:var(--font-color);
 }
 
 /* SECTION STARTED */
-.h1-heading{
-    text-align:center;
-    font-size:50px;
-}
-.md-sz{
-    font-size: 22px;
-    letter-spacing: 3px;
-    word-spacing: 4px;
-    line-height: 42px;
-}
+
+
+
 section{
     margin-left: 20%;
     padding: 10px 48px 65px 48px;
@@ -223,4 +209,15 @@ section{
     gap:10px;
     height:200px;
     margin:20px;
+}
+
+
+
+.modal-container{
+    position: relative;
+    margin: 5px;
+    width: 100%;
+    height: 390px;
+    border: 1px solid var(--secbg-color);
+    padding: 20px;
 }
