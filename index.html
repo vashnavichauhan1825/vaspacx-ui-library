@@ -9,21 +9,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
      <div id="intro" class="header-container">
         <div class="sidebar">
             <span class="vaspacx">vaspac<i class="fa fa-xing" aria-hidden="true"></i></span>
-           <ul>
-               <li><h3>Getting Started</h3></li>
-              <a href="index.html#intro"><li class="margin-10px">Intro</li></a> 
-               <li><h3>Components</h3></li>
-               <a href="index.html#avatar"><li class="margin-10px">Avatar</li></a>
-               <a href="index.html#badge"><li class="margin-10px" >Badge</li></a>
-               <a href="index.html#alert"><li class="margin-10px" >Alert</li></a>
-               <a href="index.html#button"><li class="margin-10px" >Button</li></a>
-               <a href="index.html#card"><li class="margin-10px" >Card</li></a>
-               <a href="img.html#image"><li class="margin-10px" >Image</li></a>
-               <a href="img.html#input"><li class="margin-10px" >Input</li></a>
-           </ul>
+            <ul>
+                <li><h3>Getting Started</h3></li>
+               <a href="index.html#intro"><li class="margin-10px">Intro</li></a> 
+                <li><h3>Components</h3></li>
+                <a href="index.html#avatar"><li class="margin-10px">Avatar</li></a>
+                <a href="index.html#badge"><li class="margin-10px" >Badge</li></a>
+                <a href="index.html#alert"><li class="margin-10px" >Alert</li></a>
+                <a href="index.html#button"><li class="margin-10px" >Button</li></a>
+                <a href="index.html#card"><li class="margin-10px" >Card</li></a>
+                <a href="img.html#image"><li class="margin-10px" >Image</li></a>
+                <a href="img.html#input"><li class="margin-10px" >Input</li></a>
+                <a href="img.html#typography"><li class="margin-10px" >Typography</li></a>
+                <a href="img.html#list"><li class="margin-10px" >List</li></a>
+                <a href="img.html#navigation"><li class="margin-10px" >Navigation</li></a>
+                <a href="modal.html#modal"><li class="margin-10px" >Modal</li></a>
+                <a href="modal.html#rating"><li class="margin-10px" >Rating</li></a>
+                <a href="modal.html#toast"><li class="margin-10px" >Toast</li></a>
+                <a href="modal.html#grid"><li class="margin-10px" >Grid</li></a>
+             </ul>
         </div>
       <div class="nav">
         
@@ -565,5 +574,13 @@ sandbox="allow-scripts allow-same-origin">
 </iframe>
 <a href="img.html"><button class="primay-btn icon-btn next-btn"><i class="fa fa-arrow-right" aria-hidden="true"></i>Next</button></a>
 </section>
+<script type="text/javascript">
+  let progress = document.getElementById('progressbar');
+  let totalHeight = document.body.scrollHeight - window.innerHeight;
+  window.onscroll = function(){
+      let progressHeight =(window.pageYOffset / totalHeight)*100;
+      progress.style.height = progressHeight + "%";
+  }
+</script>
 </body>
 </html>

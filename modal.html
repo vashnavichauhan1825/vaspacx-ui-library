@@ -9,20 +9,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+  <div id="progressbar"></div>
+    <div id="scrollPath"></div>
         <div class="sidebar">
            <span class="vaspacx">vaspac<i class="fa fa-xing" aria-hidden="true"></i></span>
            <ul>
             <li><h3>Getting Started</h3></li>
-            <a href="index.html#intro"><li class="margin-10px">Intro</li></a> 
-             <li><h3>Components</h3></li>
-             <a href="index.html#avatar"><li class="margin-10px">Avatar</li></a>
-             <a href="index.html#badge"><li class="margin-10px" >Badge</li></a>
-             <a href="index.html#alert"><li class="margin-10px" >Alert</li></a>
-             <a href="index.html#button"><li class="margin-10px" >Button</li></a>
-             <a href="index.html#card"><li class="margin-10px" >Card</li></a>
-             <a href="#image"><li class="margin-10px" >Image</li></a>
-             <a href="#input"><li class="margin-10px" >Input</li></a>
-           </ul>
+           <a href="index.html#intro"><li class="margin-10px">Intro</li></a> 
+            <li><h3>Components</h3></li>
+            <a href="index.html#avatar"><li class="margin-10px">Avatar</li></a>
+            <a href="index.html#badge"><li class="margin-10px" >Badge</li></a>
+            <a href="index.html#alert"><li class="margin-10px" >Alert</li></a>
+            <a href="index.html#button"><li class="margin-10px" >Button</li></a>
+            <a href="index.html#card"><li class="margin-10px" >Card</li></a>
+            <a href="img.html#image"><li class="margin-10px" >Image</li></a>
+            <a href="img.html#input"><li class="margin-10px" >Input</li></a>
+            <a href="img.html#typography"><li class="margin-10px" >Typography</li></a>
+            <a href="img.html#list"><li class="margin-10px" >List</li></a>
+            <a href="img.html#navigation"><li class="margin-10px" >Navigation</li></a>
+            <a href="modal.html#modal"><li class="margin-10px" >Modal</li></a>
+            <a href="modal.html#rating"><li class="margin-10px" >Rating</li></a>
+            <a href="modal.html#toast"><li class="margin-10px" >Toast</li></a>
+            <a href="modal.html#grid"><li class="margin-10px" >Grid</li></a>
+         </ul>
         </div>
      <section id="modal">
       <h1 class="clr-blue h1-heading">MODAL</h1>
@@ -59,6 +68,188 @@
   sandbox="allow-scripts allow-same-origin">
 </iframe>
      </section>
+     <section id="rating">
+      <h1 class="clr-blue h1-heading">RATING</h1>
+      <p class="para md-sz">Rating components can be used as read-only badge or in reviews section. Can be used in reviews section as form too.</p>
+    
+      <h2 class="clr-blue">Star Rating</h2>
+      <p class="para">below examples of star rating in descending order.</p>
+      <div>
+        <small><i class="fa fa-star r-color" aria-hidden="true"></i><i class="fa fa-star r-color" aria-hidden="true"></i><i class="fa fa-star r-color" aria-hidden="true"></i><i class="fa fa-star r-color" aria-hidden="true"></i><i class="fa fa-star r-color" aria-hidden="true"></i></small>
+    </div>
+    <div>
+        <small><i class="fa fa-star r-color" aria-hidden="true"></i><i class="fa fa-star r-color" aria-hidden="true"></i><i class="fa fa-star r-color" aria-hidden="true"></i><i class="fa fa-star r-color" aria-hidden="true"></i></small>
+    </div>
+    <div>
+        <small><i class="fa fa-star r-color" aria-hidden="true"></i><i class="fa fa-star r-color" aria-hidden="true"></i><i class="fa fa-star r-color" aria-hidden="true"></i></small>
+    </div>
+    <div>
+        <small><i class="fa fa-star r-color" aria-hidden="true"></i><i class="fa fa-star r-color" aria-hidden="true"></i></small>
+    </div>
+    <div>
+        <small><i class="fa fa-star r-color" aria-hidden="true"></i></small>
+    </div>  
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F--for%2520-five-star---%252F%252F%250A%253Csmall%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520r-color%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520r-color%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520r-color%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520r-color%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520r-color%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fsmall%253E%250A%2520%250A%2520%2520%252F%252F--four-star--%252F%252F%250A%2520%2520%253Csmall%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520r-color%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520r-color%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520r-color%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520r-color%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fsmall%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%252F%252F--three-star--%252F%252F%250A%2520%2520%253Csmall%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520r-color%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520r-color%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520r-color%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fsmall%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%252F%252F--two-star--%252F%252F%250A%2520%2520%253Csmall%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520r-color%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520r-color%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fsmall%253E%2520%2520%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%250A%2520%2520%2520%252F%252F--one-star--%252F%252F%250A%2520%2520%253Csmall%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520r-color%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fsmall%253E%2520%2520%250A%2520%2520%250A%2520%2520%250A%2520%2520"
+  style="width: 1024px; height:220px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe> 
+     </section> 
+     <section id="toast">
+      <h1 class="clr-blue h1-heading">TOAST</h1>
+      <p class="para md-sz">This component can be used for toast or snackbar component. Toast is mostly used to show feedback message. Snackbar is to used show message that need user action</p>
+    
+      <h2 class="clr-blue">Example of Toast</h2>
+      <p class="para">Examples of toast shown below and has 4 themes :- info , warning , error and success !</p>
+      <div class="snackbars toast-green">
+        <ul>
+            <li>SUCCESS : updated member status !</li>
+            <li><i class="fa fa-times" aria-hidden="true"></i></li>
+        </ul>
+    </div>
+    <div class="snackbars toast-red">
+        <ul>
+            <li>ERROR : Internal Server Error !</li>
+            <li><i class="fa fa-times" aria-hidden="true"></i></li>
+        </ul>
+    </div>
+    <div class="snackbars toast-yellow">
+        <ul>
+            <li>WARNING : User has to be admin!</li>
+            <li><i class="fa fa-times" aria-hidden="true"></i></li>
+        </ul>
+    </div>
+    <div class="snackbars toast-blue">
+        <ul>
+            <li>INFO : User pending action !</li>
+            <li><i class="fa fa-times" aria-hidden="true"></i></li>
+        </ul>
+    </div>
+    <iframe
+    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F--success--%252F%252F%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbars%2520toast-green%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ESUCCESS%2520%253A%2520updated%2520member%2520status%2520%21%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%252F%252F--error--%252F%252F%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbars%2520toast-red%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EERROR%2520%253A%2520Internal%2520Server%2520Error%2520%21%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%252F%252F--warning--%252F%252F%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbars%2520toast-yellow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EWARNING%2520%253A%2520User%2520has%2520to%2520be%2520admin%21%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%252F%252F--info--%252F%252F%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbars%2520toast-blue%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EINFO%2520%253A%2520User%2520pending%2520action%2520%21%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+    style="width: 990px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+    sandbox="allow-scripts allow-same-origin">
+  </iframe>
+     </section>
+     <section id="grid">
+      <h1 class="clr-blue h1-heading">GRID SYSTEM</h1>
+      <p class="para md-sz">Use grid when you want sections in view.Check below some examples of side by side cards.</p>
+    
+      <h2 class="clr-blue">Side by side (50:50) layout</h2>
+      <p class="para">wrappping two divs in equal porportion</p>
+      <div class="cart-cont half-ratio">
+        <div class="item item1">
+            <h1>Action Cameras</h1>
+            <p class="bold-grey-text">From $190.00</p>
+            <button class="primay-btn outl-btn"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+        </div>
+        <div class="item item2">
+           <h1>Globes</h1>
+           <p class="bold-grey-text">From $90.00</p>
+           <button class="primay-btn outl-btn"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+        </div>
+    </div>
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F--half-ratio--%252F%252F%250A%250A%253Cdiv%2520class%253D%2522cart-cont%2520half-ratio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2520item1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EAction%2520Cameras%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522bold-grey-text%2522%253EFrom%2520%2524190.00%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primay-btn%2520outl-btn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-angle-right%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2520item2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EGlobes%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522bold-grey-text%2522%253EFrom%2520%252490.00%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primay-btn%2520outl-btn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-angle-right%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 1024px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    <h2 class="clr-blue">Side by side (70:30) layout</h2>
+    <p class="para">wrappping two divs in seventy-thirty porportion</p>
+    <div class="cart-cont three-one-ratio">
+      <div class="item item1">
+          <h1>Action Cameras</h1>
+          <p class="bold-grey-text">From $190.00</p>
+          <button class="primay-btn outl-btn"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+      </div>
+      <div class="item item2">
+         <h1>Globes</h1>
+         <p class="bold-grey-text">From $90.00</p>
+         <button class="primay-btn outl-btn"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+      </div>
+  </div>
+  <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F--seventy-thirty-ratio--%252F%252F%250A%250A%253Cdiv%2520class%253D%2522cart-cont%2520three-one-ratio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2520item1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EAction%2520Cameras%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522bold-grey-text%2522%253EFrom%2520%2524190.00%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primay-btn%2520outl-btn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-angle-right%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2520item2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EGlobes%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522bold-grey-text%2522%253EFrom%2520%252490.00%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primay-btn%2520outl-btn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-angle-right%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 1024px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+  <h2 class="clr-blue">Side by side (30:70) layout</h2>
+  <p class="para">wrappping two divs in thirty-seventy porportion</p>
+  <div class="cart-cont one-three-ratio">
+    <div class="item item1">
+        <h1>Action Cameras</h1>
+        <p class="bold-grey-text">From $190.00</p>
+        <button class="primay-btn outl-btn"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+    </div>
+    <div class="item item2">
+       <h1>Globes</h1>
+       <p class="bold-grey-text">From $90.00</p>
+       <button class="primay-btn outl-btn"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+    </div>
+</div>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F--thirty-seventy-ratio-%252F%252F%250A%250A%250A%253Cdiv%2520class%253D%2522cart-cont%2520one-three-ratio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2520item1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EAction%2520Cameras%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522bold-grey-text%2522%253EFrom%2520%2524190.00%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primay-btn%2520outl-btn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-angle-right%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2520item2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EGlobes%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522bold-grey-text%2522%253EFrom%2520%252490.00%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primay-btn%2520outl-btn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-angle-right%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 1024px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h2 class="clr-blue">Three Items grid</h2>
+<p class="para">place three items in which one item has expand row property</p>
+<div class="popular-item">
+  <div class="item item1 row-span-two">
+      <h1>Action Cameras</h1>
+      <p class="bold-grey-text">From $190.00</p>
+      <button class="primay-btn outl-btn"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+  </div>
+  <div class="item item2">
+     <h1>Globes</h1>
+     <p class="bold-grey-text">From $90.00</p>
+     <button class="primay-btn outl-btn"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+  </div>
+  <div class="item item3">
+      <h1>Fairy Lights</h1>
+      <p>From $10.00</p>
+      <button class="primay-btn outl-btn"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+   </div>
+</div>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F--row%2520-span%2520--%252F%252F%250A%250A%2520%253Cdiv%2520class%253D%2522popular-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2520item1%2520row-span-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EAction%2520Cameras%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522bold-grey-text%2522%253EFrom%2520%2524190.00%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primay-btn%2520outl-btn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-angle-right%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2520item2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EGlobes%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522bold-grey-text%2522%253EFrom%2520%252490.00%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primay-btn%2520outl-btn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-angle-right%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2520item3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EFairy%2520Lights%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EFrom%2520%252410.00%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primay-btn%2520outl-btn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-angle-right%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 1024px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h2 class="clr-blue">Three column grid</h2>
+<p class="para">below example of three column grid </p>
+<div class="grid-three">
+  <div class="item item2">
+      <h1>Globes</h1>
+      <p class="bold-grey-text">From $90.00</p>
+      <button class="primay-btn outl-btn"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+   </div>
+   <div class="item item3">
+       <h1>Fairy Lights</h1>
+       <p>From $10.00</p>
+       <button class="primay-btn outl-btn"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+    </div>
+    <div class="item item1">
+      <h1>Action Cameras</h1>
+      <p class="bold-grey-text">From $190.00</p>
+      <button class="primay-btn outl-btn"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+  </div>
+</div>
+<iframe
+src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%250A%252F%252F--grid-three--%252F%252F%250A%250A%253Cdiv%2520class%253D%2522grid-three%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2520item2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EGlobes%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522bold-grey-text%2522%253EFrom%2520%252490.00%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primay-btn%2520outl-btn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-angle-right%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2520item3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EFairy%2520Lights%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EFrom%2520%252410.00%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primay-btn%2520outl-btn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-angle-right%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item%2520item1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EAction%2520Cameras%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522bold-grey-text%2522%253EFrom%2520%2524190.00%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primay-btn%2520outl-btn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-angle-right%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+style="width: 1024px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+sandbox="allow-scripts allow-same-origin">
+</iframe>
+<a href="img.html"><button class="primay-btn icon-btn next-btn"><i class="fa fa-arrow-left" aria-hidden="true"></i>Back</button></a>
 
+     </section>
+     <script type="text/javascript">
+      let progress = document.getElementById('progressbar');
+      let totalHeight = document.body.scrollHeight - window.innerHeight;
+      window.onscroll = function(){
+          let progressHeight =(window.pageYOffset / totalHeight)*100;
+          progress.style.height = progressHeight + "%";
+      }
+    </script>
 </body>
 </html>

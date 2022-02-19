@@ -46,10 +46,8 @@ img{
 }
 
 button{
-    position: fixed;
     cursor: pointer;
-    top: 74%;
-    left: 47%;
+    margin:10px;
     color: white;
     background-color: #0b0a0c26;
     border: 1px solid white;
@@ -59,4 +57,19 @@ button{
     letter-spacing: 2px;
     word-spacing: 4px;
     font-weight: bold;
+    transition:all 0.1s ease-in;
+}
+
+.home-btn-cont{
+position: fixed;
+display: flex;
+justify-content: center;
+width:100%;
+bottom:20%;
+}
+
+button:hover{
+    color:black;
+    background-color: #eee;
+    
 }
