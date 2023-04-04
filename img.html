@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+        <div class="sidebar">
+           <span class="vaspacx">vaspac<i class="fa fa-xing" aria-hidden="true"></i></span>
+           <ul>
+            <li><h3>Getting Started</h3></li>
+           <a href="index.html#intro"><li class="margin-10px">Intro</li></a> 
+            <li><h3>Components</h3></li>
+            <a href="index.html#avatar"><li class="margin-10px">Avatar</li></a>
+            <a href="index.html#badge"><li class="margin-10px" >Badge</li></a>
+            <a href="index.html#alert"><li class="margin-10px" >Alert</li></a>
+            <a href="index.html#button"><li class="margin-10px" >Button</li></a>
+            <a href="index.html#card"><li class="margin-10px" >Card</li></a>
+            <a href="img.html#image"><li class="margin-10px" >Image</li></a>
+            <a href="img.html#input"><li class="margin-10px" >Input</li></a>
+            <a href="img.html#typography"><li class="margin-10px" >Typography</li></a>
+            <a href="img.html#list"><li class="margin-10px" >List</li></a>
+            <a href="img.html#navigation"><li class="margin-10px" >Navigation</li></a>
+            <a href="modal.html#modal"><li class="margin-10px" >Modal</li></a>
+            <a href="modal.html#rating"><li class="margin-10px" >Rating</li></a>
+            <a href="modal.html#toast"><li class="margin-10px" >Toast</li></a>
+            <a href="modal.html#grid"><li class="margin-10px" >Grid</li></a>
+         </ul>
+        </div>
+     
+     <section id="image">
+        <h1 class="clr-blue h1-heading">Image</h1>
+        <p class="para md-sz">Images can be responsive to fit the parent's width, and also can be customised to be round shaped or can be control the 
+            transparency of image.
+        </p>
+      
+        <h2 class="clr-blue">Round Image</h2>
+        <p class="para">The CSS property border-radius adds rounded corners on images. You can round all of the image's corners </p>
+        <img class="round-image" src="./assets/sleepy-dog.jpg" alt="round image">
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F--by%2520default%2520its%2520size%2520is%2520200px--round%2520image---%252F%252F%250A%250A%253Cimg%2520class%253D%2522round-image%2522%2520src%253D%2522.%252Fimg%252Fsleepy-dog.jpg%2522%253E"
+  style="width: 588px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h2 class="clr-blue">Border Image</h2>
+<p class="para">The CSS property border-radius adds rounded corners on images. You can vary the radius 
+    on corners just by adding class .br-10 for 10px border-radius .br-15 for 15px border-radius and .br-5 for 5px border-radius </p>
+    <img class="image-x br-5px" src="./assets/sleepy-dog.jpg" alt="image 5 radius">
+    <img class="image-x br-10px" src="./assets/sleepy-dog.jpg" alt="image 10 radius">
+     <img class="image-x br-15px" src="./assets/sleepy-dog.jpg" alt="image 15 radius"> 
+     <iframe
+     src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F--for-5px--%252F%252F%250A%250A%253Cimg%2520class%253D%2522image-x%2520br-5px%2522%2520src%253D%2522.%252Fassets%252Fsleepy-dog.jpg%2522%253E%250A%250A%252F%252F---for--10px---%252F%252F%250A%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-x%2520br-10px%2522%2520src%253D%2522.%252Fassets%252Fsleepy-dog.jpg%2522%253E%250A%2520%2520%2520%2520%250A%252F%252F----for-15px---%252F%252F%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-x%2520br-15px%2522%2520src%253D%2522.%252Fassets%252Fsleepy-dog.jpg%2522%253E%2520"
+     style="width: 698px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+     sandbox="allow-scripts allow-same-origin">
+   </iframe>
+   <h2 class="clr-blue">Responsive Image</h2>
+<p class="para">This image generally take the whole width of the parent element you can check it by controlling the size of your screen</p>
+<img class="resp-img" src="./assets/round-image.jpg" alt="responsive image">
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F--responsive--image--%252F%252F%250A%250A%253Cimg%2520class%253D%2522resp-img%2522%2520src%253D%2522.%252Fimg%252Fround-image.jpg%2522%253E"
+  style="width: 572px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h2 class="clr-blue">Transparent Image</h2>
+<p class="para">The opacity property can take a value from 0.0 - 1.0. The lower value, the more transparent: There are 4 types
+    of value 0.2,0.5,0.8 and 1.
+</p>
+<img class="image-x op-two" src="./assets/dog-img.jpg" alt="opacity 2">
+     <img class="image-x op-five" src="./assets/dog-img.jpg" alt="opacity 5">
+     <img class="image-x op-eight" src="./assets/dog-img.jpg" alt="opacity 8">
+     <img class="image-x op-one" src="./assets/dog-img.jpg" alt="opacity 1">
+     <iframe
+     src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F--two%250A%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-x%2520op-two%2522%2520src%253D%2522.%252Fimg%252Fdog-img.jpg%2522%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%252F%252F--five%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-x%2520op-five%2522%2520src%253D%2522.%252Fimg%252Fdog-img.jpg%2522%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%252F%252F-eight%250A%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-x%2520op-eight%2522%2520src%253D%2522.%252Fimg%252Fdog-img.jpg%2522%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%252F%252F--one%250A%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-x%2520op-one%2522%2520src%253D%2522.%252Fimg%252Fdog-img.jpg%2522%253E"
+     style="width: 647px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+     sandbox="allow-scripts allow-same-origin">
+   </iframe>
+    </section>
+
+    <section id="input">
+        <h1 class="clr-blue h1-heading">Input</h1>
+        <p class="para md-sz">Input use Suppose user want to submit some details by entering data so basically input is that field Where 
+            user write whatever data they want to submit.
+            
+        </p>
+      
+        <h2 class="clr-blue">Textarea Field</h2>
+        <p class="para">Text area field provide user to write story or some details which contain more characters.</p>
+           <div class="cont-txtbox">
+            <div class="input-cont-box">
+                <label class="label-txt">Daily Diary</label><br>
+                <textarea class="input-box text-area" placeholder="Today , I ....."></textarea>
+            </div>
+        </div>
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%2520%2520%252F%252F--text-area-field---%252F%252F%2520%2520%2520%2520%250A%250A%253Cdiv%2520class%253D%2522input-cont-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-txt%2522%253EDaily%2520Diary%253C%252Flabel%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522input-box%2520text-area%2522%2520placeholder%253D%2522Today%2520%252C%2520I%2520.....%2522%253E%253C%252Ftextarea%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 918px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h2 class="clr-blue">Input Field</h2>
+<p class="para"> The input defines a single-line text field. The default width of the text field is 20 characters.</p>
+
+    <div class="input-cont-box">
+        <label class="label-txt">Username</label>
+        <input class="input-box-3" placeholder="Enter your username">
+        </div>
+
+<iframe
+src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%252F%252F--input-field%2520%2520%2520%2520%250A%250A%250A%253Cdiv%2520class%253D%2522input-cont-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-txt%2522%253EUsername%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box-3%2522%2520placeholder%253D%2522Enter%2520your%2520username%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+style="width: 732px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h2 class="clr-blue">Invalid And Valid</h2>
+<p class="para"> If the data is correct then it shows valid otherwise invalid message to user.</p>
+<div class="cont-txtbox">
+<div class="input-cont-box">
+    <label class="label-txt">Email</label>
+    <div class="input-cont-5">
+        <small class="small-valid-txt">✔ valid email id</small>
+        <input class="input-box-2" placeholder="vaspacx2022@gmail.com">
+    </div>
+</div>
+<div class="flex-cont">
+    <div class="input-cont-2">
+        <label class="label-txt">Email</label><br>
+        <input class="input-box-2" placeholder="vaspacx#93ej">
+
+    </div>
+     <small class="invalid-txt">❌ Invalid email id</small>
+   </div>
+</div>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252F---valid--%252F%252F%250A%250A%253Cdiv%2520class%253D%2522input-cont-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-txt%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-cont-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522small-valid-txt%2522%253E%25E2%259C%2594%2520valid%2520email%2520id%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box-2%2522%2520placeholder%253D%2522vaspacx2022%2540gmail.com%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%252F--invalid--%252F%252F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-cont-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-txt%2522%253EEmail%253C%252Flabel%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box-2%2522%2520placeholder%253D%2522vaspacx%252393ej%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522invalid-txt%2522%253E%25E2%259D%258C%2520Invalid%2520email%2520id%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 816px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+        </section>
+        <section id="typography">
+            <h1 class="clr-blue h1-heading">TYPOGRAPHY</h1>
+        <p class="para md-sz">
+            Check out below text utilities.
+        </p>
+      
+        <h2 class="clr-blue">HEADING</h2>
+        <p class="para">heading with simple elements tag and other one is blue colored heading</p>
+        <div class="card-flex-section">
+        <div class="para-cont">
+            <h1>h1-heading</h1>
+            <h2>h2-heading</h2>
+            <h3>h3-heading</h3>
+            <h4>h4-heading</h4>
+            <h5>h5-heading</h5>
+            <h6>h6-heading</h6>
+        </div>
+        <div class="para-cont">
+            <h1 class="clr-blue">h1-heading</h1>
+            <h2 class="clr-blue">h2-heading</h2>
+            <h3 class="clr-blue">h3-heading</h3>
+            <h4 class="clr-blue">h4-heading</h4>
+            <h5 class="clr-blue">h5-heading</h5>
+            <h6 class="clr-blue">h6-heading</h6>
+           </div>
+        </div>
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%253Ch1%253Eh1-heading%253C%252Fh1%253E%250A%2520%253Ch2%253Eh2-heading%253C%252Fh2%253E%250A%2520%253Ch3%253Eh3-heading%253C%252Fh3%253E%250A%2520%253Ch4%253Eh4-heading%253C%252Fh4%253E%250A%2520%253Ch5%253Eh5-heading%253C%252Fh5%253E%250A%2520%253Ch6%253Eh6-heading%253C%252Fh6%253E"
+  style="width: 900px; height: 281px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h2 class="clr-blue">HEADING CENTER</h2>
+        <p class="para">Example of center heading with primary color shown below</p>
+        <h1 class="h1-heading clr-blue">heading center with blue color</h1>
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Ch1%2520class%253D%2522h1-heading%2520clr-blue%2522%253Eheading%2520center%2520with%2520blue%2520color%253C%252Fh1%253E"
+  style="width: 698px; height: 188px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h2 class="clr-blue">SMALL TEXT</h2>
+<p class="para">Examples of small text with three variations:- grey bold text, small white text and normal small text</p>
+<div class="para-cont">
+    <small class="bold-grey-text">hey I'm small text with bold grey text</small><br>
+    <small class="bold-white-txt">I'm small bold white text</small><br>
+    <small>I'm normal small text</small><br>
+</div>
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522para-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522bold-grey-text%2522%253Ehey%2520I%27m%2520small%2520text%2520with%2520bold%2520grey%2520text%253C%252Fsmall%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522bold-white-txt%2522%253EI%27m%2520small%2520bold%2520white%2520text%253C%252Fsmall%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EI%27m%2520normal%2520small%2520text%253C%252Fsmall%253E"
+  style="width: 875px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h2 class="clr-blue">PARAGRAPH</h2>
+<p class="para">Example of para text with three variations:- normal para , para with spacing and para with line-height and letter spacing .</p>
+<div class="card-flex-section">
+    <div>
+    <p>Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Magnam accusantium, voluptatem, neque eos at vero
+         exercitationem illo impedit rem perferendis incidunt animi aliquam
+          adipisci commodi iure esse. Voluptatem iste aperiam animi odit 
+          commodi repellendus. Beatae, nesciunt iste
+        illum rerum eos vero numquam est.</p>
+   <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Aliquam voluptate eveniet tenetur alias eos, iste minima qui 
+        voluptatum dolores quidem quam placeat modi sed debitis laudantium, 
+        necessitatibus eaque dicta possimus natus enim adipisci sequi iusto 
+        aut laboriosam.
+        Quae officiis earum saepe repellendus ducimus!</p>
+        <p class="para md-sz">Lorem ipsum dolor sit, amet consectetur
+             adipisicing elit. Dignissimos deserunt fugiat rerum
+              beatae, voluptates amet facere reiciendis veritatis
+               odit dolore soluta earum itaque officiis, iusto 
+               adipisci 
+            asperiores possimus sit. Illo.</p>
+        </div>
+    </div>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Magnam%2520accusantium%252C%2520voluptatem%252C%2520neque%2520eos%2520at%2520vero%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520exercitationem%2520illo%2520impedit%2520rem%2520perferendis%2520incidunt%2520animi%2520aliquam%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520adipisci%2520commodi%2520iure%2520esse.%2520Voluptatem%2520iste%2520aperiam%2520animi%2520odit%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520commodi%2520repellendus.%2520Beatae%252C%2520nesciunt%2520iste%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520illum%2520rerum%2520eos%2520vero%2520numquam%2520est.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522para%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520Aliquam%2520voluptate%2520eveniet%2520tenetur%2520alias%2520eos%252C%2520iste%2520minima%2520qui%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520voluptatum%2520dolores%2520quidem%2520quam%2520placeat%2520modi%2520sed%2520debitis%2520laudantium%252C%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520necessitatibus%2520eaque%2520dicta%2520possimus%2520natus%2520enim%2520adipisci%2520sequi%2520iusto%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520aut%2520laboriosam.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520Quae%2520officiis%2520earum%2520saepe%2520repellendus%2520ducimus%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para%2520md-sz%2522%253ELorem%2520ipsum%2520dolor%2520sit%252C%2520amet%2520consectetur%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Dignissimos%2520deserunt%2520fugiat%2520rerum%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520beatae%252C%2520voluptates%2520amet%2520facere%2520reiciendis%2520veritatis%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520odit%2520dolore%2520soluta%2520earum%2520itaque%2520officiis%252C%2520iusto%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520adipisci%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520asperiores%2520possimus%2520sit.%2520Illo.%253C%252Fp%253E"
+  style="width: 782px; height: 204px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+  </section>
+  <section id="list">
+    <h1 class="clr-blue h1-heading">LIST</h1>
+    <p class="para md-sz">
+        Lists are a continuous group of text or images.
+         They are composed of items containing primary and supplemental actions,
+          which are represented by icons and text.
+    </p>
+  
+    <h2 class="clr-blue">Stacked List</h2>
+    <p class="para">This is simple stacked list</p>
+    <div class="card-flex-section">
+        <ul class="stacked-list">
+            <li>Books</li>
+            <li class="bold-grey-text"><p>children's Books</p></li>
+            <li class="bold-grey-text"><p>Astromnomy</p></li>
+            <li class="bold-grey-text"><p>Self-help</p></li>
+            <li class="bold-grey-text"><p>Fictional</p></li>
+        </ul>
+        <ul class="stacked-list">
+            <li>Fruits</li>
+            <li class="bold-grey-text"><p>Apple</p></li>
+            <li class="bold-grey-text"><p>Mango</p></li>
+            <li class="bold-grey-text"><p>Kiwi</p></li>
+            <li class="bold-grey-text"><p>Plum</p></li>
+        </ul>
+        <ul class="stacked-list">
+            <li>Vegetables</li>
+            <li class="bold-grey-text"><p>Cabbage</p></li>
+            <li class="bold-grey-text"><p>Tomato</p></li>
+            <li class="bold-grey-text"><p>Peas</p></li>
+            <li class="bold-grey-text"><p>Carrot</p></li>
+        </ul>
+    </div>
+    <iframe
+    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522spaced-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EBooks%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522bold-grey-text%2522%253E%253Cp%253Echildren%27s%2520Books%253C%252Fp%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522bold-grey-text%2522%253E%253Cp%253EAstromnomy%253C%252Fp%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522bold-grey-text%2522%253E%253Cp%253ESelf-help%253C%252Fp%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522bold-grey-text%2522%253E%253Cp%253EFictional%253C%252Fp%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522spaced-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EFruits%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522bold-grey-text%2522%253E%253Cp%253EApple%253C%252Fp%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522bold-grey-text%2522%253E%253Cp%253EMango%253C%252Fp%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522bold-grey-text%2522%253E%253Cp%253EKiwi%253C%252Fp%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522bold-grey-text%2522%253E%253Cp%253EPlum%253C%252Fp%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522spaced-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EVegetables%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522bold-grey-text%2522%253E%253Cp%253ECabbage%253C%252Fp%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522bold-grey-text%2522%253E%253Cp%253ETomato%253C%252Fp%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522bold-grey-text%2522%253E%253Cp%253EPeas%253C%252Fp%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522bold-grey-text%2522%253E%253Cp%253ECarrot%253C%252Fp%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E"
+    style="width: 714px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+    sandbox="allow-scripts allow-same-origin">
+  </iframe>
+  <h2 class="clr-blue">Spaced List</h2>
+    <p class="para">This is simple spaced list</p>
+    <ul class="spaced-list">
+        <li class="item-spaced-list">HOME</li>
+        <li class="item-spaced-list">ABOUT</li>
+        <li class="item-spaced-list">CONTACT</li>
+        <li class="item-spaced-list">EXPERIENCE</li>
+        <li class="item-spaced-list">SKILLS</li>
+    </ul>
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522spaced-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522item-spaced-list%2522%253EHOME%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522item-spaced-list%2522%253EABOUT%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522item-spaced-list%2522%253ECONTACT%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522item-spaced-list%2522%253EEXPERIENCE%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522item-spaced-list%2522%253ESKILLS%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E"
+  style="width: 606px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+  </section>
+  <section id="navigation">
+    <h1 class="clr-blue h1-heading">NAVIGATION</h1>
+    <p class="para md-sz">
+        What is a navigation bar explain?
+A navigation bar is a user interface element within a webpage that
+ contains links to other sections of the website. This means that no matter what page you are viewing, you can use the navigation
+ bar to visit other sections of the website.
+    </p>
+  
+    <h2 class="clr-blue">NAV BAR</h2>
+    <p class="para">Examples of navbar with three different styles, and all having some hover effect .</p>
+ <ul class="navigation nav-center nav-top">
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>PROJECTS</li>
+    </ul>
+<br>
+    <ul class="navigation nav-spaced nav-bottom">
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>PROJECTS</li>
+    </ul>
+    <br>
+    <nav class="navigation nav-space-between">
+         <ul>
+             <li>HOME</li>
+             <li>PROJECTS</li>
+         </ul>
+         <ul>
+            <li>CONTACT</li>
+            <li>ABOUT</li>
+        </ul>
+    </nav>
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cul%2520class%253D%2522navigation%2520nav-center%2520nav-top%2522%253E%250A%2520%2520%2520%2520%253Cli%253EHOME%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EABOUT%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ESKILLS%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EPROJECTS%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522navigation%2520nav-spaced%2520nav-bottom%2522%253E%250A%2520%2520%2520%2520%253Cli%253EHOME%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EABOUT%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ESKILLS%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EPROJECTS%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cnav%2520class%253D%2522navigation%2520nav-space-between%2522%253E%250A%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EHOME%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EPROJECTS%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ECONTACT%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EABOUT%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fnav%253E"
+  style="width: 830px; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<div class="two-btn-cont">
+<a href="index.html"><button class="primay-btn icon-btn"><i class="fa fa-arrow-left" aria-hidden="true"></i>Back</button></a>
+<a href="modal.html"><button class="primay-btn icon-btn"><i class="fa fa-arrow-right" aria-hidden="true"></i>Next</button></a>
+</div>
+</section>
+<script type="text/javascript">
+    let progress = document.getElementById('progressbar');
+    let totalHeight = document.body.scrollHeight - window.innerHeight;
+    window.onscroll = function(){
+        let progressHeight =(window.pageYOffset / totalHeight)*100;
+        progress.style.height = progressHeight + "%";
+    }
+  </script>
+</body>
+</html>
